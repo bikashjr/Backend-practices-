@@ -5,5 +5,15 @@
     "nodemailer": "^6.9.6",
     "qrcode": "^1.5.3",
     "upper-case": "^3.0.0"
-  }
+  },
+  "name": "express-v1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bikash",
+  "license": "ISC",
+  "description": ""
 }

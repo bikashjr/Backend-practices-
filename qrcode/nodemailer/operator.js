@@ -24,9 +24,14 @@ let result;
 //    result =  "You have alots"
 // }
 
-result = number === 0 ? "0point" : (
-    number < 10 ? "10 points" : "100 points"
-)
+// never do loop on ternary operator  
+
+// result = number === 0 ? "0point" : (
+//     number < 10 ? "10 points" : "100 points"
+// )
+
+
 console.log({ result });
+
 
 

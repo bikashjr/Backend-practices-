@@ -14,6 +14,7 @@ http.createServer(async (req, res) => {
     res.writeHead(200, { "content-type": "text/html" })
     
     res.write(`<img src =${qrUrl} />`);
+    
 
 
 
