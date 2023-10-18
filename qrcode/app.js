@@ -5,8 +5,6 @@ const QRCode = require('qrcode')
 
 // const moduleDate = require('./moduleDate');
 
-//   create a server and listen is the port number 
-
 http.createServer(async (req, res) => {
     // for qrcode generator 
     
@@ -15,12 +13,9 @@ http.createServer(async (req, res) => {
     
     res.write(`<img src =${qrUrl} />`);
     
-
-
-
     res.end()
+    //   create a server and listen is the port number 
 }).listen(4001)
-
 
 console.log("App is running on port 4001")
 
